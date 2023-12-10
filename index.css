@@ -34,14 +34,10 @@ body {
 }
 
 /* 카드 뒤집기 애니메이션 */
-/* .door .back {
+.door .back {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  transform: rotateY(180deg);
-}
-
-:checked+.door {
   transform: rotateY(180deg);
 }
 
@@ -49,7 +45,7 @@ body {
   background-color: black;
   color: white;
   font-weight: bold;
-} */
+}
 
 /* 그리드 설계 */
 .grid-1 {
