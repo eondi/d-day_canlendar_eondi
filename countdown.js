@@ -56,6 +56,7 @@ doors.forEach((door, index) => {
       const style = window.getComputedStyle(backDiv);
       const pTag = backDiv.querySelector("p");
       const text = modalMessageList[index]["message"];
+      doorDiv.style.backgroundImage = "url("+imageUrl+")";
 
       // showModal 함수를 호출하여 모달을 표시합니다.
       showModal(imageUrl, text);
